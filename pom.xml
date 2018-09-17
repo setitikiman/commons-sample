@@ -118,12 +118,13 @@
 	<!-- == R E P O S I T O R I E S == -->
 	<!-- ============================================================= -->
 	<repositories>
-		<repositories>
-    		<repository>
-	        <id>project.local</id>
-	        <name>project</name>
+		<repository>
+			<releases />
+			<snapshots />
+	        <id>maven2-local</id>
+	        <name>Maven local</name>
 	        <url>file:${project.basedir}/repository</url>
-	    </repository>
+    	</repository>
 		<repository>
 			<releases />
 			<snapshots />
@@ -132,7 +133,6 @@
 			<url>http://repo.maven.apache.org/maven2</url>
 		</repository>
 	</repositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>id.co.asyst.commons</groupId>

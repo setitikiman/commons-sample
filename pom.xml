@@ -118,6 +118,12 @@
 	<!-- == R E P O S I T O R I E S == -->
 	<!-- ============================================================= -->
 	<repositories>
+		<repositories>
+    		<repository>
+	        <id>project.local</id>
+	        <name>project</name>
+	        <url>file:${project.basedir}/repository</url>
+	    </repository>
 		<repository>
 			<releases />
 			<snapshots />
